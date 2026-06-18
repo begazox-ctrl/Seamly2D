@@ -19,3 +19,5 @@ lupdate.commands = $$LUPDATE -noobsolete -locations none $$shell_path($${PWD}/sh
 lupdate.commands += && $$LUPDATE -noobsolete $$shell_path($${PWD}/share/translations/measurements.pro)
 
 QMAKE_EXTRA_TARGETS += lupdate
+
+
